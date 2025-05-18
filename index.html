@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reading Assistant</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap" />
+</head>
+<body>
+
+    <div class="top-bar">
+    <label for="file-input" class="custom-file-upload">Select Files</label>
+    <input type="file" id="file-input" multiple accept="image/jpeg, video/avi, application/pdf">
+    </div>
+
+    <div class="logo">
+        <p>Image</p>
+        <p>Assistant</p>
+    </div>
+
+    <button class="how-to-button" id="how-to-button">Instructions</button>
+
+
+
+    <div id="main-container">
+        <div id="media-display"></div>
+        <div id="pdf-viewer"></div>
+    </div>
+    <div id="carousel-container">
+
+        <div class="material-symbols-outlined" id="carousel-prev">
+            arrow_circle_left
+        </div>
+        <div id="carousel-inner">
+            <div id="carousel"></div>
+        </div>
+        
+        <div class="material-symbols-outlined" id="carousel-next">
+            arrow_circle_right
+        </div>
+    </div>
+
+
+<footer>© Copyright 2025 Joshua Dyer - JSG Medical, LLC</footer>
+
+    <script src="script.js">
+ 
+    </script>
+</body>
+</html>
