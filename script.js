@@ -145,6 +145,9 @@
             const video = document.createElement('video');
             video.src = URL.createObjectURL(file);
             video.controls = true;
+            video.autoplay = true;
+            video.muted = true;
+            video.loop = true;
             mediaDisplay.appendChild(video);
 
                        
