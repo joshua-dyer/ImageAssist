@@ -139,7 +139,7 @@
             mediaDisplay.appendChild(img);
         } else if (file.type.startsWith('video/')) {
                          // error checking to find reasons avi files are not displaying
-            console.log("Displaying video file: ", file.name, "Type: ", file.type); // ADD THIS LINE
+            console.log("Displaying video file: ", file.name, "Type: ", file.type);
 
 
             const video = document.createElement('video');
